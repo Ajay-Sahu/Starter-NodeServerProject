@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
-const schema = mongoose.schema;
+const Schema = mongoose.Schema;
 
-let fileUploadSchema = new schema({
+let fileUploadSchema = new Schema({
 
   fileName: { type: String, default: "" },
   filePath: { type: String, default: "" },
