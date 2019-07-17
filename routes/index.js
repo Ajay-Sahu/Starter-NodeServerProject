@@ -15,5 +15,11 @@ const files = require('../src/components/fileUpload/fileUploadRoutes')
 // module.exports = router
 
 module.exports = (app) => {
-  app.use('/files', files)
+
+  //Test node 
+  app.get('/', (req, res) => {
+    res.status(200).json({ Message: "Welcome to Node project !", })
+  }),
+
+    app.use('/files', files)
 };
