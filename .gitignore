@@ -1,27 +1,35 @@
-# OS X
-.DS_Store*
-Icon?
-._*
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Linux
-.directory
 *~
-
-
-# npm
-node_modules
-package-lock.json
+*.sw[mnpcod]
 *.log
-*.gz
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
 
+node_modules/
+npm-debug.log*
+.idea/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+dist/
+tmp/
+temp/
+hooks/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
+$RECYCLE.BIN/
 
-# Coveralls
-coverage
-
-# Benchmarking
-benchmarks/graphs
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
